@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.admin{
+    margin-top: 70px;
+    width: 100%;
+    height: 100%;
+    background-color: #c7e5fa;
+}
+
+.admfield{
+    width: 45%;
+    float: left;
+    height: calc(100vh - 70px);
+}
+
+.admfield label
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-between;
+    padding: 10px;
+    border: 1px solid #234367;
+}
+
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 2px solid #2b4dab;
+    height: 150px;
+    box-sizing: border-box;
+
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 10px;
+    border: 2px solid #2b4dab;
+    height: calc(100% - 150px);
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.mini{
+    height: 20px;
+    width: 50%;
+}
+
+.bigtext{
+    height: 170px;
+    width: 70%;
+    overflow: auto;
+}
+
+.sbmpost
+{
+    height: 30px;
+    border-radius: 20px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.catal{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    overflow: auto;
+    height: calc(100vh - 70px);
+}
+
+.catal .item
+{
+    border: solid 1px rgb(106, 183, 255);
+    border-radius: 40px;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.imgSub
+{
+    width: 80%;
+    height: 50%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 2em;
+}
+
+.minD{
+    font-size: 1em;
+}
+
+.price{
+    font-size: 1em;
+}
+
